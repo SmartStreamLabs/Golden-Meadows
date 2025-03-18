@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:light_blue_dye",
+    "b": "minecraft:flint_and_steel"
+  },
+  "result": {
+    "id": "golden_meadows:golden_meadown_dimension",
+    "count": 1
+  }
+}

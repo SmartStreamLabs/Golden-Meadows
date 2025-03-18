@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "golden_meadows:blockof_meadows"
+    },
+    "title": {
+      "translate": "advancements.one_small_step.title"
+    },
+    "description": {
+      "translate": "advancements.one_small_step.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "one_small_step_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden_meadows:blockof_meadows"
+            ],
+            "count": {
+              "min": 1,
+              "max": 12
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 12
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

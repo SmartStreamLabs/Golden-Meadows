@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:gravel",
+    "b": "minecraft:stone"
+  },
+  "result": {
+    "id": "golden_meadows:blockof_meadows",
+    "count": 24
+  }
+}

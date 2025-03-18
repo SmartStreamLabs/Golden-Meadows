@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "golden_meadows:block/golden_meadown_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "golden_meadows:block/golden_meadown_dimension_portal_ns"
+    }
+  }
+}

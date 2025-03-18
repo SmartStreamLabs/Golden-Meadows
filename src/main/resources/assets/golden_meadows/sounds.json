@@ -1,0 +1,42 @@
+{
+  "forest": {
+    "sounds": [
+      {
+        "name": "golden_meadows:forest-ambience-296528",
+        "stream": false
+      }
+    ]
+  },
+  "cave": {
+    "sounds": [
+      {
+        "name": "golden_meadows:deep-cave-159876",
+        "stream": false
+      }
+    ]
+  },
+  "bird": {
+    "sounds": [
+      {
+        "name": "golden_meadows:bird-sound-in-a-forest-309240",
+        "stream": false
+      }
+    ]
+  },
+  "rock": {
+    "sounds": [
+      {
+        "name": "golden_meadows:rock-destroy-6409",
+        "stream": false
+      }
+    ]
+  },
+  "stone": {
+    "sounds": [
+      {
+        "name": "golden_meadows:stone-dropping-6843",
+        "stream": false
+      }
+    ]
+  }
+}

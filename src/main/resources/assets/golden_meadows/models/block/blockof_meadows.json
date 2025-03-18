@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "golden_meadows:block/stone-texture",
+    "up": "golden_meadows:block/stone-texture",
+    "north": "golden_meadows:block/stone-texture",
+    "east": "golden_meadows:block/stone-texture",
+    "south": "golden_meadows:block/stone-texture",
+    "west": "golden_meadows:block/stone-texture",
+    "particle": "golden_meadows:block/stone-texture"
+  },
+  "render_type": "solid"
+}
