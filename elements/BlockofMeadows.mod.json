@@ -1,0 +1,141 @@
+{
+  "_fv": 77,
+  "_type": "block",
+  "definition": {
+    "texture": "stone-texture",
+    "textureTop": "stone-texture",
+    "textureLeft": "stone-texture",
+    "textureFront": "stone-texture",
+    "textureRight": "stone-texture",
+    "textureBack": "stone-texture",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "§bBlock of Meadows",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.2,
+    "resistance": 20.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 6.1,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 15,
+    "material": {
+      "value": "NONE"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "LIGHT_BLUE",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DANGER_FIRE",
+    "beaconColorModifier": {
+      "value": -8401409,
+      "falpha": 0.0
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "breakSound": {
+      "value": "CUSTOM:rock"
+    },
+    "fallSound": {
+      "value": "block.anvil.fall"
+    },
+    "hitSound": {
+      "value": "block.anvil.hit"
+    },
+    "placeSound": {
+      "value": "CUSTOM:stone"
+    },
+    "stepSound": {
+      "value": "block.copper.step"
+    },
+    "luminance": 15,
+    "unbreakable": false,
+    "vanillaToolTier": "DIAMOND",
+    "isBonemealable": false,
+    "hasInventory": true,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 12,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

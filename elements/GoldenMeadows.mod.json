@@ -1,0 +1,350 @@
+{
+  "_fv": 77,
+  "_type": "biome",
+  "definition": {
+    "name": "Golden Meadows",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -16480286,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -5525840,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -8586240,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -11430654,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -9122572,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10830632,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:forest"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "CUSTOM:bird"
+    },
+    "moodSound": {
+      "value": "CUSTOM:cave"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "FALLING_SPORE_BLOSSOM"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 1.6,
+    "spawnBiome": true,
+    "spawnInCaves": true,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.3,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 23,
+    "treeStem": {
+      "value": "Blocks.MANGROVE_LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.COCOA"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "ForestGrass",
+      "ForestFlowers",
+      "AmethystGeodes",
+      "Bamboo",
+      "DeadBushes",
+      "DesertFeatures",
+      "Dripstone",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "Fossils",
+      "JungleGrass",
+      "MeadowVegetation",
+      "PlainsTallGrass",
+      "ReedsAndPumpkins",
+      "SavannaTrees",
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns",
+      "TallSeagrassLush"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "WARM",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "STANDARD",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityArmadillo"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 12,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityAxolotl"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "axolotls"
+      },
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 9,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCod"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 10,
+        "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFrog"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityGlowSquid"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntityDolphin"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 9,
+        "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntityDonkey"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityGoat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityHorse"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityMule"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityLlama"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityMooshroom"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 8,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityTurtle"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 10,
+        "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntityTropicalFish"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySquid"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 8,
+        "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityParrot"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPanda"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 8,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}
